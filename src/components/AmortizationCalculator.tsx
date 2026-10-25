@@ -311,7 +311,7 @@ export default function AmortizationCalculator() {
       )}
 
       <footer className="calc-footer">
-        <p>Calculadora de Amortización · Sistema Francés · Cuota Constante</p>
+        <p>Calculadora de Amortización DFP · Sistema Francés Franses · Cuota Constante</p>
       </footer>
     </div>
   );
