@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
     line-height: 1.6;
 }
 
-header{
+header {
     box-shadow: 0 2px 5px rgba(0, 0, 0.1);
 }
 
@@ -25,8 +25,9 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color:#333;
+    color: #333;
 }
+
 .nav-links {
     display: flex;
     list-style: none;
@@ -37,10 +38,11 @@ nav {
     text-decoration: none;
     color: #333;
 }
+
 #hero {
     padding-top: 2rem;
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/portada.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/portada.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -51,8 +53,9 @@ nav {
     color: white;
     padding: 0 1rem;
 }
-#hero h1{
-    font-size:3rem ;
+
+#hero h1 {
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -75,6 +78,7 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 #simuladores h2 {
     text-align: center;
     margin-bottom: 2rem;
@@ -82,8 +86,8 @@ nav {
 
 .simuladores-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    gap:2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
 
 }
 
@@ -103,20 +107,22 @@ nav {
 
 .simuladores-card h3 {
     padding: 1rem;
-    color:#333;
+    color: #333;
 
 }
+
 .valores {
     color: #ff6b6b;
     font-weight: bold;
     padding: 0 1rem;
 }
+
 .descripcion {
-    padding: .5rem 1rem ;
+    padding: .5rem 1rem;
     color: #666;
 }
 
-.simuladores-card button{
+.simuladores-card button {
     margin: 1rem;
     padding: .5rem 1rem;
     background-color: #333;
@@ -126,6 +132,7 @@ nav {
     cursor: pointer;
 
 }
+
 .simuladores-card button:hover {
     background-color: #000000;
 }
@@ -134,11 +141,13 @@ nav {
     background-color: #f9f9f9;
     padding: 4rem 2rem;
 }
-#contacto h2{
+
+#contacto h2 {
     text-align: center;
     margin-bottom: 2rem;
 }
-form{
+
+form {
     max-width: 600px;
     margin: 0 auto;
     display: flex;
@@ -147,18 +156,20 @@ form{
 
 }
 
-input,textarea {
+input,
+textarea {
     padding: .8rem;
     border: 1px solid #ddd;
     border-radius: 5px;
 
 }
+
 textarea {
     height: 150px;
     resize: vertical;
 }
 
-form button{
+form button {
     background-color: #ff6b6b;
     color: white;
     border: none;
@@ -167,11 +178,11 @@ form button{
     cursor: pointer;
 }
 
-form button:hover{
+form button:hover {
     background-color: #ff5555;
 }
 
-footer{
+footer {
     background-color: #333;
     color: white;
     text-align: center;
@@ -179,7 +190,7 @@ footer{
 }
 
 @media screen and (max-width: 440px) {
-    nav{
+    nav {
         flex-direction: column;
         padding: 1rem;
     }
@@ -190,47 +201,47 @@ footer{
         margin-top: 1rem;
         gap: 1rem;
     }
-    
+
 }
 
 #hero2 {
     padding-top: 3rem;
     min-height: 80vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/estrategias_inversion.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/estrategias_inversion.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: start;
+    text-align: center;
     color: whitesmoke;
     padding: 7cm;
 
 }
 
 #hero3 {
-    padding: 20rem;
+    padding: 2rem;
     min-height: 80vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/mision.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/mision.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align:justify;
+    text-align: justify;
     color: white;
     padding: 7cm;
 
-    
+
 }
 
 #hero4 {
     padding-top: 2rem;
-    
+
     min-height: 80vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/vision.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/vision.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -238,12 +249,12 @@ footer{
     flex: 1;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    text-align:center;
+    text-align: center;
     color: white;
     padding: 7cm;
-    
+
 
 }
 
