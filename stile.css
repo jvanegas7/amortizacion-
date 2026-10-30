@@ -203,31 +203,32 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: start;
     color: whitesmoke;
-    padding: 0 1rem;
+    padding: 7cm;
 
 }
 
 #hero3 {
-    padding-top: 2rem;
+    padding: 20rem;
     min-height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/mision.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align:justify;
     color: white;
-    padding: 0 1rem;
+    padding: 7cm;
 
     
 }
 
 #hero4 {
     padding-top: 2rem;
+    
     min-height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/vision.jpg');
     background-size: cover;
@@ -237,11 +238,12 @@ footer{
     flex: 1;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    text-align: center;
+    text-align:center;
     color: white;
-    padding: 0 1rem;
+    padding: 7cm;
+    
 
 }
 
