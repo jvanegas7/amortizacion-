@@ -1,11 +1,7 @@
-import AmortizationCalculator from './components/AmortizationCalculator';
-import './App.css';
 
-function App() {
-  return <AmortizationCalculator />;
-}
 
-export default App;
+
+
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Nosotros from './components/nosotros';
 import Enosotros from './components/enosotros';
@@ -24,7 +20,7 @@ function Home() {
   );
 }
 
-export default function App() {
+export default function () {
   return (
     <Router>
       <Routes>
@@ -36,7 +32,7 @@ export default function App() {
         
         /*Puedes añadir más aquí:*/
         <Route path="/enosotros" element={<Enosotros />} />
-        <Route path="/prueba" element={<Prueba />} /> 
+        
         
         
       </Routes>
