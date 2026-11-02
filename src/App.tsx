@@ -8,6 +8,7 @@ import Enosotros from './components/enosotros';
 
 
 // Un componente rápido para tu página de inicio principal
+
 function Home() {
   return (
     <div>
@@ -16,6 +17,7 @@ function Home() {
       {/* Usamos <Link> en lugar de <a href="..."> para no recargar la página */}
       <Link to="/nosotros">Ir a Nosotros</Link>
       <Link to="/prueba">Ir a Nosotros</Link>
+      <Link to="/amortizacion">Ir a Nosotros</Link>
     </div>
   );
 }
