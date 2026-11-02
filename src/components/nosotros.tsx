@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+<link rel="stylesheet" href="stile.css"></link>
 export const Nosotros: React.FC = () => {
   return (
     <>
